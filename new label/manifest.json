@@ -1,0 +1,14 @@
+{
+  "name": "new label",
+  "description": "新标签页的样式",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "html/label.html"
+  }
+}
