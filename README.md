@@ -6,5 +6,4 @@
 
 这是一个修改谷歌浏览器默认新标签页的插件
 
-[具体介绍](new label/README.md)
-
+[具体介绍](newlabel/README.md)
