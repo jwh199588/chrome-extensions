@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clear Cache Options</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="author" content="Daniel Lvovsky"/>
+    <link rel="stylesheet" href="css/options.css" type="text/css" charset="utf-8">
+</head>
+
+<body>
+<div class="option_body">
+
+    <div class="option_content">
+        <div class="clear_content">
+            <span>清理内容</span>
+            <div class="clear_content_radio">
+                <div class="options_content_radio">
+                    <input type="checkbox" name="cookie" value="true" checked>
+                    <label>cookie</label>
+                </div>
+
+                <div class="options_content_radio">
+                    <input type="checkbox" name="cache" value="true">
+                    <label>缓存</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clear_time">
+            <span>清理时间</span>
+            <div class="clear_time_radio">
+                <div class="options_time_radio">
+                    <input type="radio" name="time" value="1800000" checked>
+                    <label>30分钟</label>
+                </div>
+
+                <div class="options_time_radio">
+                    <input type="radio" name="time" value="21600000">
+                    <label>6个小时</label>
+                </div>
+
+                <div class="options_time_radio">
+                    <input type="radio" name="time" value="86400000">
+                    <label>1天</label>
+                </div>
+                <div class="options_time_radio">
+                    <input type="radio" name="time" value="0">
+                    <label>所有</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="option_refresh">
+            <input type="checkbox" name="reloadHtml" value="true"> <label>刷新页面</label>
+        </div>
+    </div>
+
+
+    <div class="option_foot">
+        <span id="option_clearData" class="option_float">清理当前页面</span>
+        <span id="option_clearDataAll" class="option_float">清理全部</span>
+        <span id="option_saveSetting" class="option_float">保存配置</span>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/options.js"></script>
+<script type="text/javascript" src="js/storage.js"></script>
+</body>
+
+</html>
